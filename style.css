@@ -204,6 +204,7 @@
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: baseline;
+        margin-bottom: 6rem;
     }
 
     header h1 {
@@ -252,7 +253,7 @@
 
     nav .button {
         padding: 0.6rem 0.4rem 0.4rem 0.4rem;
-        color: var(--black);
+        color: var(--white);
     }
 
     nav .button:hover {
@@ -368,8 +369,6 @@
         }
     }
 }
-
-
 
 @layer featured {
     .section-featured {
