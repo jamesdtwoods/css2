@@ -5,6 +5,22 @@
       --green: #31b28a;
       --lightgreen: #8cdfc5;
       --red: #ff4404;
+      --main: "Lato", sans-serif;
+      --heading: "Josefin Sans", sans-serif;
+      --mono: "Fira Mono", monospace;
+  }
+
+  body {
+      font-family: var(--main);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading);
+    text-transform: uppercase;
+  }
+
+  .mono {
+    font-family: var(--mono);
   }
 
   .colors {
@@ -13,27 +29,33 @@
   }
 
   .colors>* {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
   }
+
   .white {
-    background-color: var(--white);
+      background-color: var(--white);
   }
+
   .black {
-    background-color: var(--black);
+      background-color: var(--black);
   }
+
   .tan {
-    background-color: var(--tan);
+      background-color: var(--tan);
   }
+
   .green {
-    background-color: var(--green);
+      background-color: var(--green);
   }
+
   .lightgreen {
-    background-color: var(--lightgreen);
+      background-color: var(--lightgreen);
   }
+
   .red {
-    background-color: var(--red);
+      background-color: var(--red);
   }
 
   /* border box model: https://css-tricks.com/box-sizing/ */
