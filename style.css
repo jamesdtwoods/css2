@@ -385,14 +385,14 @@
     .section-featured h3 {
         margin: 3rem 0 0 0;
         padding: 1rem 1rem 0 1rem;
-        color: white;
+        color: var(--white);
         font-size: var(--h4);
         background-color: var(--black);
     }
 
     .blackbox {
         padding: 0rem 1rem 1rem 1rem;
-        color: white;
+        color: var(--white);
         background-color: var(--black);
         border-radius: 0;
     }
@@ -427,7 +427,7 @@
     .section-featured li {
         background-color: var(--white);
         padding: 0.5rem;
-        border: 2px solid var(--red);
+        border: 2px solid var(--lightgreen);
     }
 
     @media (max-width: 475px) {
