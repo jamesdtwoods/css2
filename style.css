@@ -176,7 +176,7 @@
         padding: 4rem 0;
         background-image: url("https://assets.codepen.io/296057/fem-comet.jpg");
         background-repeat: no-repeat;
-        background-position: 86% 20%;
+        background-position: 86% 10%;
         color: var(--white);
     }
 
@@ -253,7 +253,7 @@
 
     nav .button {
         padding: 0.6rem 0.4rem 0.4rem 0.4rem;
-        color: var(--white);
+        color: var(--black);
     }
 
     nav .button:hover {
