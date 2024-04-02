@@ -1,4 +1,4 @@
-@layer {
+@layer base {
 
     :root {
         --black: #000501;
@@ -79,6 +79,12 @@
         margin: 0;
     }
 
+    .container {
+        max-width: 1200px;
+        border: 2px solid red;
+        margin: 0 auto;
+    }
+
     .mono {
         font-family: var(--mono);
     }
@@ -139,4 +145,8 @@
         white-space: nowrap;
         width: 1px;
     }
+}
+
+@layer intro {
+
 }
