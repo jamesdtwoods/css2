@@ -51,6 +51,14 @@
     font-size: var(--h6);
   }
 
+  a {
+    color: var(--green);
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
   .mono {
     font-family: var(--mono);
   }
