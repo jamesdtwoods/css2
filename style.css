@@ -171,6 +171,28 @@
     }
 }
 
+@layer intro {
+    .intro {
+        padding: 4rem 0;
+        background-image: url("https://assets.codepen.io/296057/fem-comet.jpg");
+        background-repeat: no-repeat;
+        background-position: 86% 20%;
+        color: var(--white);
+    }
+
+    .intro a {
+        color: var(--white);
+    }
+
+    .intro h2 {
+        text-transform: uppercase;
+    }
+
+    .name {
+        font-weight: 700;
+    }
+}
+
 @layer header {
 
     /* originally placed so that we could see what we were doing when creating the navbar */
@@ -347,27 +369,7 @@
     }
 }
 
-@layer intro {
-    .intro {
-        padding: 4rem 0;
-        background-image: url("https://assets.codepen.io/296057/fem-comet.jpg");
-        background-repeat: no-repeat;
-        background-position: 86% 20%;
-        color: var(--white);
-    }
 
-    .intro a {
-        color: var(--white);
-    }
-
-    .intro h2 {
-        text-transform: uppercase;
-    }
-
-    .name {
-        font-weight: 700;
-    }
-}
 
 @layer featured {
     .section-featured {
