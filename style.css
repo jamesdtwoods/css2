@@ -124,6 +124,24 @@
         background-color: var(--red);
     }
 
+    .button {
+        display: inline-block;
+        background-color: var(--green);
+        color: var(--black);
+        padding: 0.8rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: var(--headline);
+        font-size: var(--small);
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 1;
+      }
+
+    .button:hover {
+        background-color: var(--tan);
+      }
+
     /* border box model: https://css-tricks.com/box-sizing/ */
     html {
         box-sizing: border-box;
@@ -167,15 +185,13 @@
 }
 
 @layer contact {
-    .contact {
-        background-image: url(https://assets.codepen.io/296057/fem-aurora.jpg);
-        background-repeat: no-repeat;
-        background-position: 86% 20%;
-        color: var(--white);
-        padding: 4rem 0;
+    .section-contact {
+      text-align: center;
+      padding: 6rem 0;
+      background:  var(--black) url("https://assets.codepen.io/296057/fem-aurora.jpg") center center;
+      color: var(--white);
     }
-
-    .contact a {
-        color: var(--white)
+    .section-contact p:last-child {
+      margin-top: 3rem;
     }
-}
+  }
