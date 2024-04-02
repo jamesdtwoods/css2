@@ -174,9 +174,9 @@
 @layer intro {
     .intro {
         padding: 4rem 0;
-        background-image: url("https://assets.codepen.io/296057/fem-comet.jpg");
-        background-repeat: no-repeat;
-        background-position: 86% 10%;
+        background-image: url("./img/fem-featured-top.jpg"), url("./img/fem-comet.jpg");
+        background-repeat: repeat-x, no-repeat;
+        background-position: bottom center, 86% 10%;
         color: var(--white);
     }
 
@@ -373,7 +373,7 @@
 @layer featured {
     .section-featured {
         background-image:
-            url(https://assets.codepen.io/296057/fem-feature-bkgd.png);
+            url("./img/fem-feature-bkgd.png");
         background-repeat: repeat;
         background-position: center center;
         padding: 6rem 0;
