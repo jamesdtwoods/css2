@@ -173,8 +173,8 @@
 
 @layer intro {
     .intro {
-        padding: 4rem 0;
-        background-image: url("./img/fem-featured-top.jpg"), url("./img/fem-comet.jpg");
+        padding: 4rem 0 10rem 0;
+        background-image: url("./img/fem-featured-top.png"), url("./img/fem-comet.jpg");
         background-repeat: repeat-x, no-repeat;
         background-position: bottom center, 86% 10%;
         color: var(--white);
@@ -372,10 +372,10 @@
 
 @layer featured {
     .section-featured {
-        background-image:
+        background-image: url("./img/fem-feature-bottom.png"),
             url("./img/fem-feature-bkgd.png");
-        background-repeat: repeat;
-        background-position: center center;
+        background-repeat: repeat-x, repeat;
+        background-position: bottom center, center center;
         padding: 6rem 0;
     }
 
